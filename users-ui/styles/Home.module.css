@@ -1,0 +1,49 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  width: 180px;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  z-index: 10;
+  margin: 0;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px 10px 0px 10px;
+  background-color: black;
+  color: white;
+}
+
+.brand {
+  width: 180px;
+  margin: 0 auto;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px 10px 0px 10px;
+  background-color: black;
+  color: white;
+}
+.logout {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 80px;
+  left: 165px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7.5px 0 7.5px 7.5px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.logout:hover {
+  background-color: red;
+}
+.logout img {
+  height: 1.5rem;
+}

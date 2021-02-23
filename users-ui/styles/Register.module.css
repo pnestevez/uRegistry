@@ -1,0 +1,45 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 20px;
+  border: solid 1px #eaeaea;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 330px;
+    min-width: 330px;
+  }
+}
+
+.nameSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nameSection input {
+  width: 275px;
+}
+@media (max-width: 768px) {
+  .nameSection input {
+    width: 140px;
+  }
+}
+.addressSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.addressSection input {
+  border-radius: 7.5px 7.5px 0 0;
+}

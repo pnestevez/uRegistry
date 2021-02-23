@@ -1,0 +1,29 @@
+{
+  "name": "users-core",
+  "version": "1.0.0",
+  "description": "API rest for users management",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --exec npm start",
+    "start": "node server.js",
+    "lint": "eslint --cache .",
+    "seed": "node seed.js"
+  },
+  "author": "Pablo Estevez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "nodemon": "^1.19.4"
+  }
+}
